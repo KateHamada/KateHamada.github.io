@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Kate Hamada",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://github.com/KateHamada.png",
+    "email": "kateh2@hawaii.edu",
+    "phone": "808-772-0934",
+    "website": "https://KateHamada.github.io",
+    "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2027.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
