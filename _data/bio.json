@@ -7,101 +7,72 @@
     "phone": "808-772-0934",
     "website": "https://KateHamada.github.io",
     "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2027.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "45774 Nanihoku Way", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "KateHamada", "url": "http://github.com/KateHamada" },
+      { "network": "linkedin", "username": "Kate Hamada", "url": "http://linkedin.com/in/kate-hamada-/" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Data Science" },
+    { "name": "Machine Learning / AI" },
+    { "name": "Game Development" },
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows 11", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023-08-21",
       "endDate": "Present",
-      "courses": [
+      "courses": [ "Discrete Math 1 & 2", "212 Programming structure", "311 Algorithms", "314 Software Engineering I"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "UH Manoa College of Engineering",
+      "position": "STEM Tutor",
+      "website": "https://www.eng.hawaii.edu/",
+      "startDate": "2024-02-27",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+      "summary": "Provided academic support with homework on core subjects for middle and high schoolers. Designed coding activities during STEM Day events where students were introduced to foundational programming concepts.",
     },
     {
-      "company": "UH Information Technology Services",
+      "company": "Keiki Coders",
       "position": "Help Desk Consultant",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+      "startDate": "2024-08-14",
+      "endDate": "2024-12-04",
+      "summary": "Taught intro and intermediate Python to middle school students in an after school program. Adapted lesson plans to accommodate a wide range of coding experience levels. Provided debugging guidance to help students overcome challenges as well as encouraging a collaborative environment where they could also help each other debug.",
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "organization": "Castle High School",
+      "website": "https://castlehs.k12.hi.us/athletics/",
+      "position": "Assistant Coach for Cross Country",
+      "startDate": "2023-05-15",
+      "endDate": "2023-11-18",
+      "summary": "Encouraged kids to stay in shape for other sports as well as giving them advice on how to get faster.",
     },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Outstanding Althelic Student Scholarship",
+      "date": "2023",
+      "awarder": "Spetrum OC16",
+      "summary": "Scholarships awarded to seniors in high school who demonstrate a combination of athletic and academic excellence."
     },
     {
       "title": "First place",
