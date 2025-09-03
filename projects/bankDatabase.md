@@ -4,7 +4,7 @@ type: project
 image: img/bank.png 
 title: "Bank Database"
 date: 2025
-published: false
+published: true
 labels:
   - C
   - Visual Studio Code
