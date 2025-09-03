@@ -10,7 +10,7 @@ labels:
   - Technical Essay
 ---
 
-<img width="150px" class="rounded float-start pe-4" src="/img/typescript-logo.png" style="float: right;">
+<img width="150px" class="rounded float-start pe-4" src="/img/typescript-logo.png">
 
 ## My View on Typescript
 I don’t have much thoughts on Typescript so far because I feel like it’s pretty similar to javascript just with a couple of differences. I will say it’s been a while since I’ve used javascript and I’ve as of recent have only really used C and C++ so the adjustment of not having to declare the type where “const” and “let” go is a little disorientating sometimes and other small syntax differences trip me up here and there but it’s not overall that different than the other languages that I’ve learned. I don’t really know if Typescript would be a good or bad programming language from a software perspective because I feel like languages don’t have enough of a difference to make them good or bad. In addition to that I feel like I haven’t dealt with a big enough project to be able to tell the major differences between languages. I also feel like the way that people code and how they choose to format their code is what makes more of a difference when it comes to readability and being able to work together on a project. 
