@@ -2,15 +2,13 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+title: "Bank Database"
+date: 2025
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+  - C
+  - Visual Studio Code
+summary: "Manages a Bank's records in ICS 212 using a linked list to store, add, delete, and find bank account records."
 ---
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
