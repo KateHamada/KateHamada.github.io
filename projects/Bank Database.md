@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-#image: img/vacay/vacay-square.png 
+image: img/bank.png 
 title: "Bank Database"
 date: 2025
 published: true
