@@ -7,18 +7,24 @@
     "phone": "808-772-0934",
     "website": "https://KateHamada.github.io",
     "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2027.",
-    "location": { "address": "45774 Nanihoku Way", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
+    "location": {
+      "address": "45774 Nanihoku Way",
+      "postalCode": "96744",
+      "city": "Kaneohe",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { 
-        "network": "github", 
-        "username": "KateHamada", 
-        "url": "http://github.com/KateHamada" 
+      {
+        "network": "github",
+        "username": "KateHamada",
+        "url": "http://github.com/KateHamada"
       },
-      { 
-        "network": "linkedin", 
-        "username": "Kate Hamada", 
-        "url": "http://linkedin.com/in/kate-hamada-/" 
-      },
+      {
+        "network": "linkedin",
+        "username": "Kate Hamada",
+        "url": "http://linkedin.com/in/kate-hamada-/"
+      }
     ]
   },
   "interests": [
@@ -29,11 +35,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
+      "keywords": ["C", "C++", "Java", "Javascript", "Python"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows 11", "Git/GitHub" ]
+      "keywords": ["Windows 11", "Git/GitHub"]
     }
   ],
   "education": [
@@ -43,7 +49,11 @@
       "studyType": "B.S.",
       "startDate": "2023-08-21",
       "endDate": "Present",
-      "courses": [ "Discrete Math 1 & 2", "212 Programming structure", "311 Algorithms", "314 Software Engineering I",
+      "courses": [
+        "Discrete Math 1 & 2",
+        "212 Programming structure",
+        "311 Algorithms",
+        "314 Software Engineering I"
       ]
     }
   ],
@@ -54,7 +64,7 @@
       "website": "https://www.eng.hawaii.edu/",
       "startDate": "2024-02-27",
       "endDate": "Present",
-      "summary": "Provided academic support with homework on core subjects for middle and high schoolers. Designed coding activities during STEM Day events where students were introduced to foundational programming concepts.",
+      "summary": "Provided academic support with homework on core subjects for middle and high schoolers. Designed coding activities during STEM Day events where students were introduced to foundational programming concepts."
     },
     {
       "company": "Keiki Coders",
@@ -62,7 +72,7 @@
       "website": "http://www.hawaii.edu/its/",
       "startDate": "2024-08-14",
       "endDate": "2024-12-04",
-      "summary": "Taught intro and intermediate Python to middle school students in an after school program. Adapted lesson plans to accommodate a wide range of coding experience levels. Provided debugging guidance to help students overcome challenges as well as encouraging a collaborative environment where they could also help each other debug.",
+      "summary": "Taught intro and intermediate Python to middle school students in an after school program. Adapted lesson plans to accommodate a wide range of coding experience levels. Provided debugging guidance to help students overcome challenges as well as encouraging a collaborative environment where they could also help each other debug."
     }
   ],
   "volunteer": [
@@ -72,8 +82,8 @@
       "position": "Assistant Coach for Cross Country",
       "startDate": "2023-05-15",
       "endDate": "2023-11-18",
-      "summary": "Encouraged kids to stay in shape for other sports as well as giving them advice on how to get faster.",
-    },
+      "summary": "Encouraged kids to stay in shape for other sports as well as giving them advice on how to get faster."
+    }
   ],
   "awards": [
     {
@@ -82,6 +92,12 @@
       "awarder": "Spetrum OC16",
       "summary": "Scholarships awarded to seniors in high school who demonstrate a combination of athletic and academic excellence."
     },
+    {
+      "title": "First place",
+      "date": "2015",
+      "awarder": "University of Hawaii Micromouse Competition",
+      "summary": "My team won first place in 2015. See my portfolio site for more details."
+    }
   ],
   "references": [
     {
