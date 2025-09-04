@@ -9,7 +9,7 @@
     "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2027.",
     "location": { "address": "45774 Nanihoku Way", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "email", "username": "kateh2", "url": "mailto:kateh2@hawaii.edu" }
+      { "network": "email", "username": "kateh2", "url": "mailto:kateh2@hawaii.edu" },
       { "network": "github", "username": "KateHamada", "url": "http://github.com/KateHamada" },
       { "network": "linkedin", "username": "Kate Hamada", "url": "http://linkedin.com/in/kate-hamada-/" },
     ]
@@ -36,7 +36,7 @@
       "studyType": "B.S.",
       "startDate": "2023-08-21",
       "endDate": "Present",
-      "courses": [ "Discrete Math 1 & 2", "212 Programming structure", "311 Algorithms", "314 Software Engineering I"
+      "courses": [ "Discrete Math 1 & 2", "212 Programming structure", "311 Algorithms", "314 Software Engineering I",
       ]
     }
   ],
