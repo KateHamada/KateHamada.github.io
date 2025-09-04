@@ -9,8 +9,16 @@
     "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2027.",
     "location": { "address": "45774 Nanihoku Way", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "KateHamada", "url": "http://github.com/KateHamada" },
-      { "network": "linkedin", "username": "Kate Hamada", "url": "http://linkedin.com/in/kate-hamada-/" },
+      { 
+        "network": "github", 
+        "username": "KateHamada", 
+        "url": "http://github.com/KateHamada" 
+      },
+      { 
+        "network": "linkedin", 
+        "username": "Kate Hamada", 
+        "url": "http://linkedin.com/in/kate-hamada-/" 
+      },
     ]
   },
   "interests": [
@@ -74,12 +82,6 @@
       "awarder": "Spetrum OC16",
       "summary": "Scholarships awarded to seniors in high school who demonstrate a combination of athletic and academic excellence."
     },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
   ],
   "references": [
     {
