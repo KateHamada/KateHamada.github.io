@@ -2,13 +2,13 @@
 layout: project
 type: project
 image: img/bank.png 
-title: "Bank Database"
+title: "TCP Header Responder"
 date: 2025
-published: false
+published: true
 labels:
-  - C
+  - C++
   - Visual Studio Code
-summary: "Manages a Bank's records in ICS 212 using a linked list to store, add, delete, and find bank account records."
+summary: "[CHANGE THIS]"
 ---
 
 <img class="img-fluid" src="/img/bank.png">
