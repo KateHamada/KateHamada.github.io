@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/bank.png 
+image: img/pokidex.webp 
 title: "Pokedex"
 date: 2025
 published: true
