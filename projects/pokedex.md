@@ -4,7 +4,7 @@ type: project
 image: img/pokidex.webp 
 title: "Pokedex"
 date: 2025
-published: true
+published: false
 labels:
   - C++
   - Visual Studio Code
