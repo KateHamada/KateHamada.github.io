@@ -6,7 +6,7 @@ title: "Bank Database"
 date: 2025
 published: true
 labels:
-  - C
+  - C++
   - Visual Studio Code
 summary: "Manages a Bank's records in ICS 212 using a linked list to store, add, delete, and find bank account records."
 ---
