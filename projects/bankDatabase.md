@@ -8,7 +8,7 @@ published: true
 labels:
   - C++
   - Visual Studio Code
-summary: "Manages a Bank's records in ICS 212 using a linked list to store, add, delete, and find bank account records."
+summary: "Manages bank records with a user interface and used a linked list to store, add, delete, and find bank account records. The records were stored in a file so the user can access the records after quiting the program."
 ---
 
 <img class="img-fluid" src="/img/bank.png">
