@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/bank.png 
 title: "Bank Database"
-date: 2025
+date: May 2025
 published: true
 labels:
   - C++
