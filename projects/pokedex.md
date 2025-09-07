@@ -3,17 +3,21 @@ layout: project
 type: project
 image: img/pokidex.webp 
 title: "Pokedex"
-date: 2025
-published: false
+date: May 2025
+published: true
 labels:
   - C++
   - Visual Studio Code
-summary: "[Change later] Manages a Bank's records in ICS 212 using a linked list to store, add, delete, and find bank account records."
+summary: "Mimics a Pokedex that is basically a catalogue of pokemon and information about them. Uses object oriented programming using inheritance and polymorphism."
 ---
 
 <img class="img-fluid" src="/img/pokidex.webp">
-Pokedex C++ Project
+# Pokedex C++ Project
 
-[Change later] This bank database is a C++ / C project that I created in ICS 212, spring 2025. This project helped me learn to manage data as well as how pointers work by using a linked list to store the account number, name, and amount of money in a separate file. This was implemented on PUTTY but was created in Visual Studio Code in about a month. 
+This is a C++ project that I made in spring 2025 in my ICS 212 Programming Structure class that allows the user to get information from a catalogue of pokemon. In this project there was a base class called Pokemon with derivded classes to represent different types of pokemon.
+
+From this poject I learned to apply Object-Oriented Programming by creating an inheritance hierarchy where Pokemon was the parent class. I also learned to implement polymorphism by overriding printData() from the parent class in the child class. I also dynamically managed memory with new and delete to allocate and deallocate memory in order to prevent memory leaks.
+
+I was responsible for the entire project where I created all of the header and source code files, created the interface for all of the object, and created the child classes that contained their respective data. 
 
 Here is the project: <a href="https://github.com/KateHamada/Pokedex.git">Pokedex</a>
