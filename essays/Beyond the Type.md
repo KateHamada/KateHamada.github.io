@@ -12,7 +12,7 @@ labels:
 
 <img width="150px" class="rounded float-start pe-4" src="/img/typescript-logo.png">
 
-## My First Impression on Typescript
+## My First Impression on Typescript: 
 There wasn’t much that stuck out to me while using typescript mostly because it’s pretty similar to javascript just with a couple of differences. Even though it’s been a while since I’ve used javascript and have only really used C and C++ as of late, the adjustment of not having to declare the type of variable and instead use “const” and “let” is a little disorientating sometimes and other small syntax differences trip me up here and there but it’s not overall that different than the other languages that I’ve learned. It’s uncertain whether or not typescript would be a good or bad programming language from a software perspective because in my opinion languages don’t have enough of a difference to make them good or bad. In addition to that I haven’t dealt with a big enough project to be able to tell the major differences between languages. To further my point, in my opinion, the way that people code and how they choose to format their code is what makes more of a difference when it comes to readability and being able to work together on a project rather than the language itself. 
 
 ## Thoughts on Athletic Software Engineering
