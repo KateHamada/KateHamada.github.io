@@ -4,7 +4,7 @@ type: essay
 title: "On the Other Side of the Keyboard"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-07
-published: false
+published: true
 labels:
   - Software Engineering
   - Technical Essay
