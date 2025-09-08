@@ -10,7 +10,7 @@ labels:
   - Technical Essay
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/software eng.webp">
+<img width="200px" class="rounded float-start pe-4" src="../img/software eng.webp">
 
 ## The Joy of Building User-Focused Software
 
