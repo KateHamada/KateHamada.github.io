@@ -3,12 +3,13 @@ layout: essay
 type: essay
 title: "An Engineer's Secret Weapon: The Smart Question"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2025-09-10
 published: false
 labels:
   - Questions
   - Answers
   - StackOverflow
+  - Technical Essay
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
