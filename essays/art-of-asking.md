@@ -120,7 +120,8 @@ My first thought was that sorting brings the data into the cache, but that's sil
   - Why is processing a sorted array faster than processing an unsorted array?
 The code is summing up some independent terms, so the order should not matter.
 
-The second half of the question shows that the asker attempted to figure it out themselves by showing both results in Java and C++ and suggesting that it might be due to the fact that sorting brings data into the cache but showed they do know something and said that thought was incorrect because the array was just generated. 
+### This shows that the asker attempted to figure it out themselves
+This was demonstrated by showing both results in Java and C++ and suggesting that it might be due to the fact that sorting brings data into the cache but showed they do know something and said that thought was incorrect because the array was just generated. 
 
 ### Now onto a NOT smart example:
 
@@ -137,9 +138,9 @@ for(int i = 0; i < list.size(); i++) {
 ```
 What is going on? Please help ASAP!!
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+[something]
 
-## Insights you gained as a result of this experience:
+## Conclusion
 
 Asking a smart question not only can be applied to coding questions but can also be applied to emailing professors, TA’s, or really anyone in order to get help with whatever it is you need help with. For non coding problems, I don’t think you have to go too in depth on what you’ve googled but to include the link to the assignment, your class plus your section number, and what you’ve attempted and are confused on does make the professor and/or TA more likely to help you in my past experience.
 
