@@ -120,26 +120,26 @@ My first thought was that sorting brings the data into the cache, but that's sil
   - Why is processing a sorted array faster than processing an unsorted array?
 The code is summing up some independent terms, so the order should not matter.
 
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+The second half of the question shows that the asker attempted to figure it out themselves by showing both results in Java and C++ and suggesting that it might be due to the fact that sorting brings data into the cache but showed they do know something and said that thought was incorrect because the array was just generated. 
 
-## The foolproof way to get ignored.
+### Now onto a NOT smart example:
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+Header: Why is this bad?
 
+Hi,
+My program is slow. I tried doing stuff. It uses Java.
+I have a list of numbers. When I sort them it's slower than when I don’t. But I thought sorting helps?
 ```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+for(int i = 0; i < list.size(); i++) {
+  if(list.get(i) > threshold) count++;
+}
+// etc.
 ```
+What is going on? Please help ASAP!!
 
 A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
 
-## Conclusion
+## Insights you gained as a result of this experience:
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Asking a smart question not only can be applied to coding questions but can also be applied to emailing professors, TA’s, or really anyone in order to get help with whatever it is you need help with. For non coding problems, I don’t think you have to go too in depth on what you’ve googled but to include the link to the assignment, your class plus your section number, and what you’ve attempted and are confused on does make the professor and/or TA more likely to help you in my past experience.
+
