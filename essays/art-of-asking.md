@@ -124,6 +124,7 @@ The code is summing up some independent terms, so the order should not matter.
 This was demonstrated by showing both results in Java and C++ and suggesting that it might be due to the fact that sorting brings data into the cache but showed they do know something and said that thought was incorrect because the array was just generated. 
 
 ### Now onto a NOT smart example:
+(unfortunately I couldn't find a real example from StackOverflow so I had ChatGPT come up with one based on examples that people have talked about that no longer exist)
 
 Header: Why is this bad?
 
