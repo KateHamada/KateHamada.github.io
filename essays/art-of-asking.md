@@ -21,11 +21,11 @@ In the example below, we will examine the components of a smart question. In thi
 
 ### Here’s the first half of the question from StackOverflow:
 
-```
-Why is processing a sorted array faster than processing an unsorted array?
+#### Why is processing a sorted array faster than processing an unsorted array?
 
 In this C++ code, sorting the data (before the timed region) makes the primary loop ~6x faster:
 
+```
 #include <algorithm>
 #include <ctime>
 #include <iostream>
@@ -59,14 +59,16 @@ int main()
     std::cout << elapsedTime << '\n';
     std::cout << "sum = " << sum << '\n';
 }
-
+```
 - Without std::sort(data, data + arraySize); , the code runs in 11.54 seconds.
 - With the sorted data, the code runs in 1.93 seconds.
 
 (Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)
-```
 
-First things first, the header: “Why is processing a sorted array faster than processing an unsorted array?”
+### First things first, the header: 
+
+“Why is processing a sorted array faster than processing an unsorted array?”
+
 This is a good header because it’s clear, concise, and specific as in, they could’ve said “Why is my code slow?” but instead chose the header above. Not only that but it also invites explanation and is search friendly so that if someone else has the same question, which is likely, they would also be able to get their answer from there.
 
 Within the body of the question, the asker is clear and gives the measured timings of the processing times “11.54 seconds” and “1.93 seconds” and clearly asks why the difference exists. This shows that the asker has an interest in understanding the background hardware stuff that’s happening that they don’t know about, which helps get people to answer their question. 
