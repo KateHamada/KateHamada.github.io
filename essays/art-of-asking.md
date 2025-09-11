@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "The Art of Asking"
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: false
@@ -13,13 +13,9 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## What Makes a Question Smart?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
-
-## What’s a smart question?
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+There’s a lot more than you would think when it comes to creating a smart question that will likely get you an answer on whatever problem you have with your code. In order to ask a smart question it requires you to do some work before you even go on a forum to ask otherwise you won’t get an answer and will likely get downvoted on StackOverflow. So before you ask, you should try to look for an answer on forums or the web or AI and make sure to include what you’ve tried and look up so far so that people know that this isn’t you just playing dumb in order to get someone else to do the work for you. Even though it seems tedious to do this, you should because at the end of the day you aren’t entitled to an answer from anyone else because you aren’t paying for it. Now onto creating the actual question, there are a lot of aspects of a smart question so I’ll show you an example of a smart question and then point out what was smart about it. Afterwards I’ll show you an example of a not so smart question that will lead you to not getting answers so that you’ll know what not to do.
 
 In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
 
