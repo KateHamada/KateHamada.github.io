@@ -138,7 +138,7 @@ for(int i = 0; i < list.size(); i++) {
 ```
 What is going on? Please help ASAP!!
 
-### Errors:
+### What's Wrong?
 First of all the header is vague and doesn’t tell us what is bad and under what conditions which immediately makes this question to be less likely answered since the header is the first thing that people read. In addition to that there; no context of what this for loop is used for and doesn’t tell us what list or threshold is and so it’s hard to tell what’s wrong with the code without having to ask the asker more which shouldn’t happen. There was also no evidence of them attempting to fix the problem on their own and they said “Please help ASAP!!” which comes off as needy and annoying especially when it’s something they could probably solve it themselves if they tried.
 
 ## Conclusion
