@@ -17,7 +17,7 @@ labels:
 
 There’s a lot more than you would think when it comes to creating a smart question that will likely get you an answer on whatever problem you have with your code. In order to ask a smart question it requires you to do some work before you even go on a forum to ask otherwise you won’t get an answer and will likely get downvoted on StackOverflow. So before you ask, you should try to look for an answer on forums or the web or AI and make sure to include what you’ve tried and look up so far so that people know that this isn’t you just playing dumb in order to get someone else to do the work for you. Even though it seems tedious to do this, you should because at the end of the day you aren’t entitled to an answer from anyone else because you aren’t paying for it. Now onto creating the actual question, there are a lot of aspects of a smart question so I’ll show you an example of a smart question and then point out what was smart about it. Afterwards I’ll show you an example of a not so smart question that will lead you to not getting answers so that you’ll know what not to do.
 
-In the example below, we will examine the components of a smart question. In this case the person asking is trying to figure out why a sorted array is processed faster than an unsorted. 
+In the example below, we will examine the components of a smart question. In this case the person asking is trying to figure out why a sorted array is processed faster than an unsorted. Here's the [link](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array ) but it's also typed out for your convenience as well.
 
 ### Here’s the first half of the question from StackOverflow:
 
