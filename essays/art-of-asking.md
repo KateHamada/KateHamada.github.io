@@ -21,7 +21,7 @@ In the example below, we will examine the components of a smart question. In thi
 
 ### Here’s the first half of the question from StackOverflow:
 
-#### Why is processing a sorted array faster than processing an unsorted array?
+Header: Why is processing a sorted array faster than processing an unsorted array?
 
 In this C++ code, sorting the data (before the timed region) makes the primary loop ~6x faster:
 
