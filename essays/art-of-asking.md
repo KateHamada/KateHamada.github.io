@@ -4,7 +4,7 @@ type: essay
 title: "The Art of Asking"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-10
-published: false
+published: true
 labels:
   - Smart Questions
   - StackOverflow
