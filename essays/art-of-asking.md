@@ -60,8 +60,8 @@ int main()
     std::cout << "sum = " << sum << '\n';
 }
 ```
-- Without std::sort(data, data + arraySize); , the code runs in 11.54 seconds.
-- With the sorted data, the code runs in 1.93 seconds.
+  - Without std::sort(data, data + arraySize); , the code runs in 11.54 seconds.
+  - With the sorted data, the code runs in 1.93 seconds.
 
 (Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)
 
@@ -73,25 +73,53 @@ This is a good header because it’s clear, concise, and specific as in, they co
 
 Within the body of the question, the asker is clear and gives the measured timings of the processing times “11.54 seconds” and “1.93 seconds” and clearly asks why the difference exists. This shows that the asker has an interest in understanding the background hardware stuff that’s happening that they don’t know about, which helps get people to answer their question. 
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
+### Here’s the second half of the question from StackOverflow:
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+Initially, I thought this might be just a language or compiler anomaly, so I tried Java:
 
 ```
+import java.util.Arrays;
+import java.util.Random;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        // Generate data
+        int arraySize = 32768;
+        int data[] = new int[arraySize];
+
+        Random rnd = new Random(0);
+        for (int c = 0; c < arraySize; ++c)
+            data[c] = rnd.nextInt() % 256;
+
+        // !!! With this, the next loop runs faster
+        Arrays.sort(data);
+
+        // Test
+        long start = System.nanoTime();
+        long sum = 0;
+        for (int i = 0; i < 100000; ++i)
+        {
+            for (int c = 0; c < arraySize; ++c)
+            {   // Primary loop.
+                if (data[c] >= 128)
+                    sum += data[c];
+            }
+        }
+
+        System.out.println((System.nanoTime() - start) / 1000000000.0);
+        System.out.println("sum = " + sum);
+    }
+}
+```
+With a similar but less extreme result.
+
+My first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.
+  - What is going on?
+  - Why is processing a sorted array faster than processing an unsorted array?
+The code is summing up some independent terms, so the order should not matter.
+
  
 The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
 
