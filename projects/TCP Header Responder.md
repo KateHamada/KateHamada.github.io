@@ -20,4 +20,4 @@ I was also the sole developer for this project and so I implemented the read and
 
 Somethings I learned from this project was how to use fstream in order to read binary files as well as bitwise operators in order to modify specific sections of the byte. I also learned how to interpret and convert multi-byte binary data into meaningful numbers.
 
-Here is the project: <a href="hhttps://github.com/KateHamada/TCP-Header-Responder.git">TCP Header Responder</a>
+Here is the project: <a href="https://github.com/KateHamada/TCP-Header-Responder.git">TCP Header Responder</a>
