@@ -1,147 +1,44 @@
----
-layout: essay
-type: essay
-title: "The Art of Asking"
-# All dates must be YYYY-MM-DD format!
-date: 2025-09-24
-published: false
-labels:
-  - Coding Standards
-  - Typescript
-  - Technical Essay
----
+Title
+Many people think of “coding standards” in a trivial way—i.e. minutiae such as how many spaces to indent, or whether you place the close-curly-brace on a new line by itself. I, on the other hand, think that if you can only implement one software engineering technique to improve quality, it should be coding standards. Indeed, I believe some coding standards can actually help you learn a programming language. Do you agree? After your first week of using ESLint with VSCode, what are your impressions? Are you finding that getting rid of all the ESLint errors is painful, or useful, or both, or something else entirely? Write an interesting, informative essay on coding standards that addresses some or all of the above questions, or goes in a different direction entirely regarding coding standards. Make sure it provides your personal perspective and useful insights.
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart question.png">
-
-## What Makes a Question Smart?
-
-There’s a lot more than you would think when it comes to creating a smart question that will likely get you an answer on whatever problem you have with your code. In order to ask a smart question it requires you to do some work before you even go on a forum to ask otherwise you won’t get an answer and will likely get downvoted on StackOverflow. So before you ask, you should try to look for an answer on forums or the web or AI and make sure to include what you’ve tried and look up so far so that people know that this isn’t you just playing dumb in order to get someone else to do the work for you. Even though it seems tedious to do this, you should because at the end of the day you aren’t entitled to an answer from anyone else because you aren’t paying for it. Now onto creating the actual question, there are a lot of aspects of a smart question so I’ll show you an example of a smart question and then point out what was smart about it. Afterwards I’ll show you an example of a not so smart question that will lead you to not getting answers so that you’ll know what not to do.
-
-In the example below, we will examine the components of a smart question. In this case the person asking is trying to figure out why a sorted array is processed faster than an unsorted. Here's the [link](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array ) but it's also typed out for your convenience as well.
-
-### Here’s the first half of the question from StackOverflow:
-
-Header: Why is processing a sorted array faster than processing an unsorted array?
-
-In this C++ code, sorting the data (before the timed region) makes the primary loop ~6x faster:
-
+To some degree I think that some coding standards do help you learn a programming language or at the very least make it easier to understand what the code is doing. For example putting new line after a “{“ and before a “}” when dealing with functions or if statements, etc. is helpful like so: 
 ```
-#include <algorithm>
-#include <ctime>
-#include <iostream>
-
-int main()
-{
-    // Generate data
-    const unsigned arraySize = 32768;
-    int data[arraySize];
-
-    for (unsigned c = 0; c < arraySize; ++c)
-        data[c] = std::rand() % 256;
-
-    // !!! With this, the next loop runs faster.
-    std::sort(data, data + arraySize);
-
-    // Test
-    clock_t start = clock();
-    long long sum = 0;
-    for (unsigned i = 0; i < 100000; ++i)
-    {
-        for (unsigned c = 0; c < arraySize; ++c)
-        {   // Primary loop.
-            if (data[c] >= 128)
-                sum += data[c];
-        }
-    }
-
-    double elapsedTime = static_cast<double>(clock()-start) / CLOCKS_PER_SEC;
-
-    std::cout << elapsedTime << '\n';
-    std::cout << "sum = " << sum << '\n';
+If (num == 10) {
+num++;
+return true;
 }
+Instead of something like below which is harder to read in my opinion but technically should function the same:
+If (num == 10) { num++; return true; }
 ```
-  - Without std::sort(data, data + arraySize); , the code runs in 11.54 seconds.
-  - With the sorted data, the code runs in 1.93 seconds.
-
-(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)
-
-### First things first, the header: 
-
-“Why is processing a sorted array faster than processing an unsorted array?”
-
-This is a good header because it’s clear, concise, and specific as in, they could’ve said “Why is my code slow?” but instead chose the header above. Not only that but it also invites explanation and is search friendly so that if someone else has the same question, which is likely, they would also be able to get their answer from there.
-
-Within the body of the question, the asker is clear and gives the measured timings of the processing times “11.54 seconds” and “1.93 seconds” and clearly asks why the difference exists. This shows that the asker has an interest in understanding the background hardware stuff that’s happening that they don’t know about, which helps get people to answer their question. 
-
-### Here’s the second half of the question from StackOverflow:
-
-Initially, I thought this might be just a language or compiler anomaly, so I tried Java:
-
+After the first week of using ESLint with VSCode, if I’m being completely honest, I despise it because there are some formatting rules that I don’t agree with and in my opinion are too nit picky. For example, having to use single quotes instead of double quotes for strings:
 ```
-import java.util.Arrays;
-import java.util.Random;
+const name = ‘Kate’ // correct way
+const name = “Kate” // incorrect way
+```
+I think that this is counterintuitive in my opinion because previously we’ve learned that Java makes the distinction between strings and characters with double quotes for strings and single quotes for characters. Even though I know that the quotes don’t matter in typescript it’s just irritating having errors popping up because of my muscle memory of putting double quotes. However, I do agree with why this rule was implemented since you don’t want to use both single and double quotes because it might confuse other coders as to if there’s a difference between them since you used them in different places. But I would instead of picking single quotes, I would pick double quotes instead.
 
-public class Main
-{
-    public static void main(String[] args)
-    {
-        // Generate data
-        int arraySize = 32768;
-        int data[] = new int[arraySize];
+Another example of ESLint being nitpicky that I hate is when you have a space at the end of a line of code and it freaks out saying that you can’t do that when it shouldn’t even matter because it’s not like anyone can see the extra space at the end of a line. 
+```
+const idk = ‘test’;_
+const idk = ‘test’;
+```
+On the other hand, something like an indentation difference where it can look different depending on how long it is which can make it look confusing which I can understand why it would be important to remind coders to implement that. 
+Example:
+```
+// bad example
+const sum = 0;
+for (const i = 0; i < array.length; i++) {
+sum = array[i] + sum;
+console.log(array[i]); }
+return sum;
 
-        Random rnd = new Random(0);
-        for (int c = 0; c < arraySize; ++c)
-            data[c] = rnd.nextInt() % 256;
-
-        // !!! With this, the next loop runs faster
-        Arrays.sort(data);
-
-        // Test
-        long start = System.nanoTime();
-        long sum = 0;
-        for (int i = 0; i < 100000; ++i)
-        {
-            for (int c = 0; c < arraySize; ++c)
-            {   // Primary loop.
-                if (data[c] >= 128)
-                    sum += data[c];
-            }
-        }
-
-        System.out.println((System.nanoTime() - start) / 1000000000.0);
-        System.out.println("sum = " + sum);
-    }
+// good example
+const sum = 0;
+for (const i = 0; i < array.length; i++) {
+sum = array[i] + sum;
+console.log(array[i]);
 }
+return sum;
 ```
-With a similar but less extreme result.
+In the good example you can see that “sum = array[i] + sum;” and “console.log(array[i]);” are a part of the for loop and not “return sum;” while the bad example makes it look like the for loop includes the “return sum;” statement. 
 
-My first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.
-  - What is going on?
-  - Why is processing a sorted array faster than processing an unsorted array?
-The code is summing up some independent terms, so the order should not matter.
-
-### This shows that the asker attempted to figure it out themselves
-This was demonstrated by showing both results in Java and C++ and suggesting that it might be due to the fact that sorting brings data into the cache but showed they do know something and said that thought was incorrect because the array was just generated. 
-
-### Now onto a NOT smart example:
-(unfortunately I couldn't find a real example from StackOverflow so I had ChatGPT come up with one based on examples that people have talked about that no longer exist)
-
-Header: Why is this bad?
-
-Hi,
-My program is slow. I tried doing stuff. It uses Java.
-I have a list of numbers. When I sort them it's slower than when I don’t. But I thought sorting helps?
-```
-for(int i = 0; i < list.size(); i++) {
-  if(list.get(i) > threshold) count++;
-}
-// etc.
-```
-What is going on? Please help ASAP!!
-
-### What's Wrong?
-First of all the header is vague and doesn’t tell us what is bad and under what conditions which immediately makes this question to be less likely answered since the header is the first thing that people read. In addition to that there; no context of what this for loop is used for and doesn’t tell us what list or threshold is and so it’s hard to tell what’s wrong with the code without having to ask the asker more which shouldn’t happen. There was also no evidence of them attempting to fix the problem on their own and they said “Please help ASAP!!” which comes off as needy and annoying especially when it’s something they could probably solve themselves if they tried.
-
-## Conclusion
-
-Asking a smart question not only can be applied to coding questions but can also be applied to emailing professors, TA’s, or really anyone in order to get help with whatever it is you need help with. For non coding problems, I don’t think you have to go too in depth on what you’ve googled but to include the link to the assignment, your class plus your section number, and what you’ve attempted and are confused on does make the professor and/or TA more likely to help you in my past experience.
