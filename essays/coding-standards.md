@@ -6,7 +6,9 @@ If (num == 10) {
 num++;
 return true;
 }
+```
 Instead of something like below which is harder to read in my opinion but technically should function the same:
+```
 If (num == 10) { num++; return true; }
 ```
 After the first week of using ESLint with VSCode, if I’m being completely honest, I despise it because there are some formatting rules that I don’t agree with and in my opinion are too nit picky. For example, having to use single quotes instead of double quotes for strings:
