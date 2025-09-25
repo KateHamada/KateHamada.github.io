@@ -11,7 +11,7 @@ labels:
   - Technical Essay
 ---
 
-<img width="300px" class="rounded float-end ps-4" src="../img/ESLint.jpg">
+<img width="400px" class="rounded float-end ps-4" src="../img/ESLint.jpg">
 
 ## Introduction
 ESLint is like an extension that you add onto your IDE so that while you are coding it will show you errors with your code, not necessarily errors that make the code nonfunctional but that it should be formatted differently. The major purpose of ESLint is to make sure that you’re following coding standards so that future bugs can be avoided as well as the fact that other coders can look at your code without getting confused as to what you’re doing. 
