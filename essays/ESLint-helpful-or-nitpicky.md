@@ -20,8 +20,8 @@ ESLint is like an extension that you add onto your IDE so that while you are cod
 To some degree I think that some coding standards do help you learn a programming language or at the very least make it easier to understand what the code is doing. For example putting new line after a “{“ and before a “}” when dealing with functions or if statements, etc. is helpful like so: 
 ```
 If (num == 10) {
-num++;
-return true;
+  num++;
+  return true;
 }
 ```
 Instead of something like below which is harder to read in my opinion but technically should function the same:
@@ -57,8 +57,8 @@ return sum;
 // good example
 const sum = 0;
 for (const i = 0; i < array.length; i++) {
-sum = array[i] + sum;
-console.log(array[i]);
+  sum = array[i] + sum;
+  console.log(array[i]);
 }
 return sum;
 ```
