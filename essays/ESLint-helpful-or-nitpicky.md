@@ -13,7 +13,8 @@ labels:
 
 ## Introduction
 ESLint is like an extension that you add onto your IDE so that while you are coding it will show you errors with your code, not necessarily errors that make the code nonfunctional but that it should be formatted differently. The major purpose of ESLint is to make sure that you’re following coding standards so that future bugs can be avoided as well as the fact that other coders can look at your code without getting confused as to what you’re doing. 
-### Readability Conventions
+
+## Readability Conventions
 To some degree I think that some coding standards do help you learn a programming language or at the very least make it easier to understand what the code is doing. For example putting new line after a “{“ and before a “}” when dealing with functions or if statements, etc. is helpful like so: 
 ```
 If (num == 10) {
