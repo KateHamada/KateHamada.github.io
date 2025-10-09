@@ -17,7 +17,7 @@ labels:
 One of the reasons why people like to use UI frameworks like Bootstrap is because it can be more convenient in some circumstances because it comes with pre-designed components like buttons, icons, and navigation bars like so: 
 
 ```
-// with UI framework
+// with Bootstrap 5
 <button id="decrease" class="btn btn-secondary me-2">Click Me!</button>
 
 // without UI framework
@@ -38,7 +38,7 @@ One of the reasons why people like to use UI frameworks like Bootstrap is becaus
 ```
 This makes it easier on our side because you don’t have to worry about manually styling them unless you want to make them custom or different from the defaults. Which is where one of the cons of UI frameworks come into play where, customizing preset things to a specific way that you want can become annoying because you’d have to know what Bootstrap class is doing what and then altering it correctly. Another cone of UI frameworks is that they can become very cluttered and hard to understand how to alter code at a first glance like so:
 ```
-// UI framework 
+// With Bootstrap 5
  <div class="card text-center shadow p-4" style="width: 20rem;">    /* this looks confusing and hard to tell what p-4 does and 
                                                                     how to change it so that it does what you want it to (in this case changing the padding on all four sides) */
 
