@@ -4,7 +4,7 @@ type: essay
 title: "Bootstrap 5: Convenience vs. Customization"
 # All dates must be YYYY-MM-DD format!
 date: 2025-10-08
-published: false
+published: true
 labels:
   - UI Frameworks
   - HTML, Bootstrap 5
