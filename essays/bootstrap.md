@@ -11,7 +11,7 @@ labels:
   - Technical Essay
 ---
 
-# Bootstrap 5: Convenience vs. Customization
+Bootstrap 5: Convenience vs. Customization
 
 <img width="300px" class="rounded float-start ps-4" src="../img/bootstrap.png">
 
