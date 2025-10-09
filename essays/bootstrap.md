@@ -11,10 +11,11 @@ labels:
   - Technical Essay
 ---
 
-<img width="300px" class="rounded float-start ps-4" src="../img/bootstrap.png">
+<img width="300px" class="rounded float-end pe-4" src="../img/bootstrap.png">
 
-## Convenience and the Hidden Cost of UI Frameworks
+# Convenience and the Hidden Cost of UI Frameworks
 One of the reasons why people like to use UI frameworks like Bootstrap is because it can be more convenient in some circumstances because it comes with pre-designed components like buttons, icons, and navigation bars like so: 
+
 ```
 // with UI framework
 <button id="decrease" class="btn btn-secondary me-2">Click Me!</button>
