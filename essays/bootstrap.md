@@ -11,9 +11,9 @@ labels:
   - Technical Essay
 ---
 
-<img width="300px" class="rounded float-end ps-4" src="../img/bootstrap.png">
-
 # Bootstrap 5: Convenience vs. Customization
+
+<img width="300px" class="rounded float-end ps-4" src="../img/bootstrap.png">
 
 ## Convenience and the Hidden Cost of UI Frameworks
 One of the reasons why people like to use UI frameworks like Bootstrap is because it can be more convenient in some circumstances because it comes with pre-designed components like buttons, icons, and navigation bars like so: 
