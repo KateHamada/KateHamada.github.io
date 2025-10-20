@@ -14,10 +14,10 @@ summary: "My Attempt at recreating the apple website"
 <img class="img-fluid" src="/img/tcp header.png">
 Apple.com recreation
 
-This project is a C++ project that I created in ICS 212 programming structure in spring 2025 that reads a 20 byte TCP header from a binary file. Once read, it extracts information like source and destination ports, sequence numbers, acknowledgement numbers, and active flags. Then it's printed so that the user can read understand what the file contains. The program is also able to create a response header by taking an existing request header and make modifcations like swapping the source and destination ports, etc.
+I created this project in ICS 314 Software Engineering 1 in October 2025 that was my attempt at recreating part of the apple.com website that constantly changes so it most likely won't look like what the website looks like now. This project used HTML, CSS, React, and Bootstrap. 
 
-I was also the sole developer for this project and so I implemented the read and write functions as well as the print and make header function. I wrote the logic to correctly discern the binary data into readable summary of the TCP head. I also wrote a function where I modified only specific bits within a bite. 
+I was also the sole developer for this project and so I implemented the entire website by myself.
 
-Somethings I learned from this project was how to use fstream in order to read binary files as well as bitwise operators in order to modify specific sections of the byte. I also learned how to interpret and convert multi-byte binary data into meaningful numbers.
+Somethings I learned from this project was...
 
-Here is the project: <a href="https://github.com/KateHamada/TCP-Header-Responder.git">TCP Header Responder</a>
+Here is the project: <a href="https://github.com/KateHamada/TCP-Header-Responder.git](https://github.com/KateHamada/apple-recreation">Apple Reaction</a>
