@@ -24,26 +24,26 @@ Kate Hamada
 - Landing page
 - User home page 
 - Request a Restaurant
-If the restaurant is not displayed in the list, form page to request it be added
-Admin home page
-adds restaurant
-edit restaurant information details
-Delete restaurant
-Filter / Search Page
-All restaurants (Default)
-Filter
-Cuisine check boxes (japanese, korean, thai, etc)
-Search To My Taste! (only shows cuisine that the user specified on profile)
-Price ranges (i.e. $15-$20)
-I’m feeling lucky
-Popular Restaurant / Trending Restaurant
-Individual Restaurant Page
-Shows restaurant for individual restaurant:
-Restaurant name
-Address
-Type of restaurant, type of food
-Price range
-Parking (rating out of 5)
+  - If the restaurant is not displayed in the list, form page to request it be added
+- Admin home page
+  - adds restaurant
+  - edit restaurant information details
+- Delete restaurant
+- Filter / Search Page
+  - All restaurants (Default)
+  - Filter:
+  - Cuisine check boxes (japanese, korean, thai, etc)
+  - Search To My Taste! (only shows cuisine that the user specified on profile)
+  - Price ranges (i.e. $15-$20)
+  - I’m feeling lucky
+- Popular Restaurant / Trending Restaurant
+- Individual Restaurant Page
+  - Shows restaurant for individual restaurant:
+  - Restaurant name
+  - Address
+  - Type of restaurant, type of food
+  - Price range
+  - Parking (rating out of 5)
 
 # Use case ideas
 - New user goes to the landing page; creates an account; edits profile; logs in; gets served the user home page; filters based on price, food type, open hours, location, parking, etc.
