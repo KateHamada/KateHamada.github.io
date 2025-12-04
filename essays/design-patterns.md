@@ -109,3 +109,6 @@ export default function RootLayout({
 }
 ``` 
 This file acts as a structural template for the entire application. The html and body tags, along with global elements like NavBar, Providers, and Footer, form a fixed outer layout that every page inherits. The {children} prop serves as the “hook” where page-specific content is inserted. This separation—a stable outer structure with interchangeable inner content—is the defining characteristic of a structural pattern. It organizes how components fit together, enforces consistent layout across all pages, and mirrors the Template Method design pattern by establishing a reusable framework while allowing individual pages to supply variable content.
+
+## Conclusion
+Overall, exploring design patterns helped me recognize how experienced developers approach recurring software challenges. Seeing these ideas applied not just in tutorials but also within my own project such as the structural Template Method pattern in our layout, made the concepts feel much more concrete. This understanding will influence how I design and organize my code in future projects, encouraging me to think more intentionally about structure, reuse, and maintainability.
