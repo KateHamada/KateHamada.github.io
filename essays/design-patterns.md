@@ -19,7 +19,7 @@ When coding you will often encounter problems that are similar to ones that othe
 There are three categories of design patterns–creational, structural, and behavioral patterns. Creational design patterns are concerned with object creation mechanisms, increasing flexibility and reuse of code. Structural Patterns are concerned with composing classes and objects into larger structures. Behavioral Patterns are concerned with communication and interaction between objects.
 
 ## A Common Example of a Design Pattern
-This website called <u>[Refactoring Guru](https://refactoring.guru/design-patterns/singleton/typescript/example#lang-features)</u> has a really good example of  Singleton in TypeScript:
+This website called [<u>Refactoring Guru</u>](https://refactoring.guru/design-patterns/singleton/typescript/example#lang-features) has a really good example of  Singleton in TypeScript:
 ```
 /**
  * The Singleton class defines an `instance` getter, that lets clients access
@@ -82,7 +82,7 @@ The expected output of this code is “Singleton works, both variables contain t
 This example can be used for managing resources like data connections, configuration settings, or centralized logging services where having multiple instances would lead to inconsistencies or resource waste. Basically it uses encapsulation and static properties to guarantee that regardless of how many times the instance getter is accessed, only one object of the Singleton class ever exists.
 
 ## Design Pattern in Final Project
-There were a few design patterns that were used in my group’s final project but the one that I noticed was a **Structural Design Pattern**. Which can be shown in [src/app/layout.tsx](https://github.com/RI-Bows/RIBows/blob/main/src/app/layout.tsx) and and is an example of the **Template Method-Style Structural pattern**:
+There were a few design patterns that were used in my group’s final project but the one that I noticed was a **Structural Design Pattern**. Which can be shown in [<u>src/app/layout.tsx</u>](https://github.com/RI-Bows/RIBows/blob/main/src/app/layout.tsx) and and is an example of the **Template Method-Style Structural pattern**:
 ```
 export const metadata: Metadata = {
   title: 'RIBows',
