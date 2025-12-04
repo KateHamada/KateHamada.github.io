@@ -10,6 +10,8 @@ labels:
   - Software Engineering
 ---
 
+<img width="400px" class="rounded float-end ps-4" src="../img/design-patterns.jpg">
+
 ## Introduction
 When coding you will often encounter problems that are similar to ones that others have previously solved. Which is why libraries exist as well as design patterns but their functionality are different. Design patterns are like the skeletons of how to abstractly approach a problem, similar to dynamic programming where you need to work it out for a specific problem but there are general guides that you can follow. Which is unlike libraries where you can’t really modify them and they only work for the specific intention they were made with. 
 
