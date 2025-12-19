@@ -2,9 +2,8 @@
 layout: essay
 type: essay
 title: "Beyond the Type"
-# All dates must be YYYY-MM-DD format!
 date: 2025-09-02
-published: true
+published: false
 labels:
   - TypeScript
   - Technical Essay

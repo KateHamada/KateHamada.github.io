@@ -2,7 +2,6 @@
 layout: essay
 type: essay
 title: "ESLint: Helpful Guide or Nitpicky Enforcer?"
-# All dates must be YYYY-MM-DD format!
 date: 2025-09-24
 published: true
 labels:

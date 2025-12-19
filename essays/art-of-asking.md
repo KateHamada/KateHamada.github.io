@@ -2,7 +2,6 @@
 layout: essay
 type: essay
 title: "The Art of Asking"
-# All dates must be YYYY-MM-DD format!
 date: 2025-09-10
 published: true
 labels:
@@ -11,7 +10,7 @@ labels:
   - Technical Essay
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart question.png">
+<img width="300px" class="rounded float-end ps-4" src="../img/smart question.png">
 
 ## What Makes a Question Smart?
 

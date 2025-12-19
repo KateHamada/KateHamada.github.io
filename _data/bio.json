@@ -11,7 +11,7 @@
       "address": "45774 Nanihoku Way",
       "postalCode": "96744",
       "city": "Kaneohe",
-      "countryCode": "USA",
+      "countryCode": "US",
       "region": "Hawaii"
     },
     "profiles": [
@@ -30,12 +30,14 @@
   "interests": [
     { "name": "Data Science" },
     { "name": "Machine Learning / AI" },
-    { "name": "Game Development" }
+    { "name": "Game Development" },
+    { "name": "Dance (HipHop)" },
+    { "name": "Weight Lifting" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": ["C", "C++", "Java", "Javascript", "Python"]
+      "keywords": ["C", "C++", "Java", "Javascript", "Python", "Typescript", "HTML/CSS", "React"]
     },
     {
       "name": "Toolsets/OS",
