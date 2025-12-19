@@ -16,10 +16,10 @@ Artificial intelligence (AI) can be used as a learning tool as well as a tool to
 For Experience WODs like the beginning ones dealing with Typescript, I would use AI mainly to help me get unstuck at the beginning. I prompted ChatGPT with something like: “Explain how to approach this WOD step by step without giving the full solution.” Or I would ask how do I do this specific calculation. This was useful for understanding the structure of the task, but I avoided asking for full code because relying too much on AI slowed me down when debugging. In addition to that in the later WOD's I would just attempt it myself with little to no AI prompting and then watch the youtube video to see what I was supposed to do. Which helped me the second time that I did the Experience WODs, if I did a second time.
 
 ### In-class Practice WODs
-For in-class WODs, I would typically ask more generalized questions like asking how to do something instead of how to fullfill the prompt so that I can understand what to do for the actual inclass WOD's since ChatGPT would sometimes take a while to analyze the prompt and provide code that I could start testing/using. 
+For in-class Practice WODs, I would typically ask more generalized questions like asking how to do something instead of how to fulfill the prompt so that I can understand what to do for the actual inclass WOD's since ChatGPT would sometimes take a while to analyze the prompt and provide code that I could start testing/using. 
 
 ### In-class WODs
-During in-class WODs, I would ask ChatGPT a do a section of what the WOD was asking me to do since sometimes if you put the entire prompt into ChatGPT it'll mess up something. For example the Justin Beiber WOD, even though I couldn't get my code working, I just asked ChatGPT if the function I created accounts for edge cases that the WOD wanted like so:
+During in-class WODs, I would ask ChatGPT to do a section of what the WOD was asking me to do since sometimes if you put the entire prompt into ChatGPT it'll mess up something. For example the Justin Bieber WOD, even though I couldn't get my code working, I just asked ChatGPT if the function I created accounts for edge cases that the WOD wanted like so:
 
 ```
 Does this account for not including "babylon" since it's not just baby? 
@@ -82,7 +82,7 @@ I used AI to explain unfamiliar code with prompts like: “Explain what this fun
 When writing code, I occasionally asked: “Write a simple function that satisfies these constraints <description>.” AI helped me get started, but the generated code often needed significant revision, and debugging AI-written code sometimes took longer than writing it myself.
 
 ### Documenting code
-For documentation, I didn't use any AI becuase I typically understood what a section of code was doing without AI. I only really use AI as a starting point and can typically read code and understand what it's doing. 
+For documentation, I didn't use any AI because I typically understood what a section of code was doing without AI. I only really use AI as a starting point and can typically read code and understand what it's doing. 
 
 ### Quality assurance
 For QA tasks, I asked questions such as: “What’s causing this ESLint error in my code? [pasted error here]” AI was especially useful here, as it helped identify common mistakes quickly, though I still needed to understand the fix to avoid repeating the same error later.
