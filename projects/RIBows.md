@@ -14,7 +14,7 @@ labels:
 summary: "Allows users to find RIO's (Registered Independent Organizations) which are basically clubs that you can join at UH Manoa but not in association with UH Manoa."
 ---
 
-<img class="img-fluid" src="/img/website.png">
+<img class="img-fluid" src="/img/website.png" width="200px" height="200px">>
 
 This project is a HTML, CSS, and Typescript project that me and a couple other of my classmates created in ICS 314 Software Engineering in Fall 2026. This project allows users to search directly for an RIO that they want to join, as well as filters like trending and type of RIO. This program also allows clubs to have their own account and edit their own information in case the spreadsheet that the database is using has any incorrect or not up to date information. 
 
