@@ -13,7 +13,6 @@ labels:
   - Visual Studio Code
 summary: "Allows users to find RIO's (Registered Independent Organizations) which are basically clubs that you can join at UH Manoa but not in association with UH Manoa."
 ---
-## RIBows Website
 
 <img class="img-fluid" src="/img/website.png">
 

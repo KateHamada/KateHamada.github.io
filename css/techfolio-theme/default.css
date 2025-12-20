@@ -48,3 +48,12 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+/* Ensure project card images do not overlap text and fit nicely */
+.card .row .col-sm-6 img,
+.card .row .col-md-4 img {
+  width: 100%;
+  height: 225px;
+  object-fit: contain;
+  display: block;
+}
