@@ -14,7 +14,7 @@ summary: "Mimics a Pokedex that is basically a catalogue of pokemon and informat
 <img class="img-fluid" src="/img/pokidex.webp">
 # Pokedex C++ Project
 
-This is a C++ project that I made in spring 2025 in my ICS 212 Programming Structure class that allows the user to get information from a catalogue of pokemon. In this project there was a base class called Pokemon with derivded classes to represent different types of pokemon.
+This is a C++ project that I made in spring 2025 in my ICS 212 Programming Structure class that allows the user to get information from a catalogue of pokemon. In this project there was a base class called Pokemon with derived classes to represent different types of pokemon.
 
 From this project I learned to apply Object-Oriented Programming by creating an inheritance hierarchy where Pokemon was the parent class. I also learned to implement polymorphism by overriding printData() from the parent class in the child class. I also dynamically managed memory with new and delete to allocate and deallocate memory in order to prevent memory leaks.
 
