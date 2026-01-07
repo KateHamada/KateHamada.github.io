@@ -1,3 +1,9 @@
+/* Center images in project cards */
+.project-card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Default theme. Simple, yet elegant. */
 
 /* Use Open Sans as the default sans serif font. */
