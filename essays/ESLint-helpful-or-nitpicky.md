@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "ESLint: Helpful Guide or Nitpicky Enforcer?"
 date: 2025-09-24
-published: true
+published: false
 labels:
   - ESLint
   - Typescript

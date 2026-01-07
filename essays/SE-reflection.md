@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflect on Software Engineering"
 date: 2025-12-17
-published: true
+published: false
 labels:
   - Reflection
   - Functional Programming

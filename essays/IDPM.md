@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "IDPM Effort Estimate"
 date: 2025-12-15
-published: true
+published: false
 labels:
   - IDPM Effort
   - Software Development

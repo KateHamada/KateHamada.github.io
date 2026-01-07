@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "The Art of Asking"
 date: 2025-09-10
-published: true
+published: false
 labels:
   - Smart Questions
   - StackOverflow

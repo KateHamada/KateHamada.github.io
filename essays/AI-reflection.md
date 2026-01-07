@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflect on Your Use of AI in ICS 314"
 date: 2025-12-15
-published: true
+published: false
 labels:
   - AI
   - Software Engineering

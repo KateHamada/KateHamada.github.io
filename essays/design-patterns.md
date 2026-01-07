@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Beyond Libraries: An Introduction to Software Design Patterns"
 date: 2025-12-04
-published: true
+published: false
 labels:
   - Typescript 
   - Design Patterns
