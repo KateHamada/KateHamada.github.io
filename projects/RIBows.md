@@ -11,7 +11,7 @@ labels:
   - SQL (Databases)
   - React / Bootstrap
   - Visual Studio Code
-summary: "Allows users to find RIO's (Registered Independent Organizations) which are basically clubs that you can join at UH Manoa but not in association with UH Manoa."
+summary: "Allows users to find RIO's (Registered Independent Organizations) which are basically clubs that you can join at UH Manoa but not in association with UH Manoa. https://github.com/RI-Bows/RIBows"
 ---
 
 <img class="img-fluid" src="/img/website.png">
