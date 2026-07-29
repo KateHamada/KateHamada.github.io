@@ -7,7 +7,7 @@
     </div>
 
     <div class="vstack gap-3">
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" %}
       {% for page in project_pages %}
         {% unless page.draft %}
           {% include projects/project-card.html page=page %}

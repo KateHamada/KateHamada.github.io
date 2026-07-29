@@ -6,10 +6,8 @@
     "email": "kateh2@hawaii.edu",
     "phone": "808-772-0934",
     "website": "https://KateHamada.github.io",
-    "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2027.",
+    "summary": "Computer Science senior (graduating Spring 2027) with internship and practical experience in full-stack web development and data analytics. Combines strong technical abilities across software engineering, UI/UX, and data analysis with clear communication and a fast-learning mindset.",
     "location": {
-      "address": "45774 Nanihoku Way",
-      "postalCode": "96744",
       "city": "Kaneohe",
       "countryCode": "US",
       "region": "Hawaii"
@@ -27,21 +25,14 @@
       }
     ]
   },
-  "interests": [
-    { "name": "Data Science" },
-    { "name": "Machine Learning / AI" },
-    { "name": "Game Development" },
-    { "name": "Dance (HipHop)" },
-    { "name": "Weight Lifting" }
-  ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": ["C", "C++", "Java", "Javascript", "Python", "Typescript", "HTML/CSS", "React"]
+      "keywords": ["C", "C++", "Java", "Javascript", "Python", "Typescript", "HTML/CSS", "Node.js", "React", "Next.js"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": ["Windows 11", "Git/GitHub"]
+      "keywords": ["Windows 11", "Git/GitHub", "Tableau", "Navicat"]
     }
   ],
   "education": [
@@ -50,7 +41,7 @@
       "area": "Computer Science (expected Spring, 2027)",
       "studyType": "B.S.",
       "startDate": "2023-08-21",
-      "endDate": "Present",
+      "endDate": "2027-05-15",
       "courses": [
         "Discrete Math 1 & 2",
         "212 Programming structure",
