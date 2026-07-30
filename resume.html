@@ -4,6 +4,15 @@ layout: home
 ---
 
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
+  <div class="container text-center">
+    <h1 class="display-4 mb-4">{{ site.data.bio.basics.name }}</h1>
+    <a class="btn btn-primary" href="{{ '/assets/resume (07_29_26).pdf' | prepend: site.baseurl }}" target="_blank">
+      View Resume (PDF)
+    </a>
+  </div>
+</div>
+
+<!-- <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
     <div class="row">
@@ -30,13 +39,13 @@ layout: home
         {% endfor %}
       </div>
       <div class="col">
-        <!-- <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}, {{ site.data.bio.basics.location.postalCode }}</p> -->
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}, {{ site.data.bio.basics.location.postalCode }}</p>
         <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.countryCode }}</p>
         <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
       </div>
     </div>
 
-    <!-- <div class="row pt-4 align-items-center">
+    <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Interests</h1>
       </div>
@@ -48,7 +57,7 @@ layout: home
           {% endfor %}
         </p>
       </div>
-    </div> -->
+    </div>
 
     {% if site.data.bio.education %}
     <div class="row pt-4 align-items-start">
@@ -241,4 +250,4 @@ layout: home
     </div>
     {% endif %}
   </div>
-</div>
+</div> -->
