@@ -19,7 +19,7 @@
         <p class="lead m-0">
           Work Experience:
            {% for work in site.data.bio.work %}
-           {{ work.position }} at {{ work.company }}{% if forloop.last != true %}, {% endif %}
+           &bull; {{ work.position }} at {{ work.company }}{% if forloop.last != true %}<br>{% endif %}
           {% endfor %}
         </p>
         <hr class="my-4">
