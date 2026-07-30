@@ -43,29 +43,32 @@
       "startDate": "2023-08-21",
       "endDate": "2027-05-15",
       "courses": [
-        "Discrete Math 1 & 2",
-        "212 Programming structure",
-        "311 Algorithms",
-        "314 Software Engineering I"
+        "Hip Hop Dance Club (E1R1)",
+        "Ballroom Dance Club"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa College of Engineering",
-      "position": "STEM Tutor",
-      "website": "https://www.eng.hawaii.edu/",
-      "startDate": "2024-02-27",
+      "company": "Sea Grant",
+      "position": "Student Data Analyst",
+      "startDate": "2026-02-05",
       "endDate": "Present",
-      "summary": "Provided academic support with homework on core subjects for middle and high schoolers. Designed coding activities during STEM Day events where students were introduced to foundational programming concepts."
+      "summary": "Using Python, PostgreSQL, and Tableau to analyze energy and water data and translate it into environmental insights in order to help shape Sea Grant's sustainability roadmap."
     },
     {
-      "company": "Keiki Coders",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2024-08-14",
-      "endDate": "2024-12-04",
-      "summary": "Taught intro and intermediate Python to middle school students in an after school program. Adapted lesson plans to accommodate a wide range of coding experience levels. Provided debugging guidance to help students overcome challenges as well as encouraging a collaborative environment where they could also help each other debug."
+      "company": "Pacific Intelligence & Innovation Initiative",
+      "position": "Full Stack Web Developer Intern",
+      "startDate": "2026-06-15",
+      "endDate": "2026-08-07",
+      "summary": "Deployed a full-stack web application and relational database designed to collect, process, and analyze user-inputted data in real time."
+    },
+    {
+      "company": "Hawaii Data Science Institute",
+      "position": "Data Visualization & Frontend Developer Intern",
+      "startDate": "2026-01-15",
+      "endDate": "2026-05-18",
+      "summary": "I was part of the spring 2026 cohort and was assigned to work with HDCP (Hawaii Data Climate Portal) on the climate atlas for evapotranspiration. Where I developed a website that took ascii files and turned them into json files which were then displayed onto a map using typescript."
     }
   ],
   "volunteer": [
@@ -76,20 +79,6 @@
       "startDate": "2023-05-15",
       "endDate": "2023-11-18",
       "summary": "Encouraged kids to stay in shape for other sports as well as giving them advice on how to get faster."
-    }
-  ],
-  "awards": [
-    {
-      "title": "Outstanding Althelic Student Scholarship",
-      "date": "2023",
-      "awarder": "Spetrum OC16",
-      "summary": "Scholarships awarded to seniors in high school who demonstrate a combination of athletic and academic excellence."
-    },
-    {
-      "title": "Academic Merit Scholarship",
-      "date": "2023-2025",
-      "awarder": "University of Hawaii",
-      "summary": "As long as you maintain."
     }
   ],
   "references": [
